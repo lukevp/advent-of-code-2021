@@ -1,0 +1,6 @@
+part 1 can be just read and processed line by line.
+
+part 2 needs to have a sliding window so it's easier to read the whole file into memory.
+- trivially first implementation is to just read the whole file into memory, then when iterating and accumulating, just subtract out the item one outside the window.
+
+questions: if you didn't want to read file into memory, how would you do this with an arbitrary sliding window size? you would have to have a buffer as big as the window size.

@@ -1,0 +1,1 @@
+I did day 1 part 2 (sliding window) by loading the whole thing into memory.  I should try again with using a buffer of the window size.
