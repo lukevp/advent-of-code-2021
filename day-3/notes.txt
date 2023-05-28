@@ -1,0 +1,16 @@
+For part 1,
+ - basically it's doing an even/odd check on each digit. we just need to iterate the file and accumulate each into a slot the length of the first input
+ - (assuming input is a matrix).
+ Then the result is whatever the even/odd is for each digit.
+
+
+ Challenges:
+ - i didn't remember the syntax for iterating the offset + value at the same time in TypeScript
+ - I didn't remember how to initialize a 2d array to all 0s ()
+ 
+ Final: My assumption was wrong about even/odd, it really needed to determine a pivot point of the center of the 0/1 space.
+
+ For part 2,
+ Assumptions:
+  - you have to iterate the whole bit strings once first to get the most/least common bit for each position.
+  - 
